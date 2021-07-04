@@ -4,7 +4,9 @@
   "description": "This is my first test",
   "main": "calculation.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha ./tests/*.test.js",
+    "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "start": "node calculation.js"
   },
   "repository": {
     "type": "git",

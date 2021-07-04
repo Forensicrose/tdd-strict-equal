@@ -1,4 +1,4 @@
-function total(num1, num2) {
+function strictEquals(num1, num2) {
   let num1Type = typeof num1
   let num2Type = typeof num2
 
@@ -10,4 +10,4 @@ function total(num1, num2) {
   return false
 }
 
-module.exports = total
+module.exports = strictEquals

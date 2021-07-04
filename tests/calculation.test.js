@@ -1,7 +1,7 @@
 let describe = require('mocha').describe
 let it = require('mocha').it
 let expect = require('chai').expect
-var strictEquals = require('../calculation')
+let strictEquals = require('../calculation')
 
 describe('calculation', () => {
   describe('strictEqual', () => {
